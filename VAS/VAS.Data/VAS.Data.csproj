@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190511050752_huy11052019.cs" />
+    <Compile Remove="Migrations\20190513133315_huy13052019.cs" />
+    <Compile Remove="Migrations\20190513134324_huy13052019.cs" />
+    <Compile Remove="Migrations\20190513161805_huy13052019.cs" />
+    <Compile Remove="Migrations\20190513162201_huy13052019.cs" />
+    <Compile Remove="Migrations\20190514042952_huy14052019.cs" />
+    <Compile Remove="Migrations\20190514060946_huy14052019-4.cs" />
+    <Compile Remove="Migrations\20190517045801_huy17052019.cs" />
+    <Compile Remove="Migrations\20190517045924_huy17052019.cs" />
+    <Compile Remove="Migrations\20190517072033_thanhnt17052019.cs" />
+    <Compile Remove="Migrations\20190519121440_huy19052019.cs" />
+    <Compile Remove="Migrations\20190521083119_huy21052019-2.cs" />
+    <Compile Remove="Migrations\20190527052137_huy27052019.cs" />
+    <Compile Remove="Migrations\20190527052508_huy27052019.cs" />
+    <Compile Remove="Migrations\20190527062514_huy27052019.cs" />
+    <Compile Remove="Migrations\20190527062817_huy27052019.cs" />
+    <Compile Remove="Migrations\20190527070630_huy27052019-2.cs" />
+    <Compile Remove="Migrations\20190529094137_huy29052019.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VAS.Model\VAS.Model.csproj" />
+  </ItemGroup>
+
+</Project>
